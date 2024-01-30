@@ -5,7 +5,7 @@ import { Button, Box } from "@mui/material";
 const BotonSaludo = ({ texto }: { texto: string }) => {
   return (
     <Box>
-      <Button variant="contained">{texto}</Button>
+      <Button variant="outlined">{texto}</Button>
     </Box>
   );
 };
