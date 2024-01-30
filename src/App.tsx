@@ -1,6 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import BotonDespedida from './componentes/BotonDespedida';
+import BotonSaludo from './componentes/BotonSaludo';
+import BotonGlobal from './componentes/BotonGlobal';
 
 function App() {
   return (
@@ -18,6 +21,10 @@ function App() {
         >
           Learn React
         </a>
+        <BotonDespedida />
+        <BotonSaludo/>
+        <BotonGlobal texto='lo que sea'/>
+       
       </header>
     </div>
   );
