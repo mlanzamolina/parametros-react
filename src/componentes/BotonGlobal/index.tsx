@@ -3,9 +3,12 @@ import PropTypes from "prop-types";
 import { Button, Box } from "@mui/material";
 
 const BotonSaludo = ({ texto }: { texto: string }) => {
+  const manejarClick = () => {
+    alert("Hola");
+  }
   return (
     <Box>
-      <Button variant="outlined">{texto}</Button>
+      <Button variant="outlined" onClick={manejarClick}>{texto}</Button>
     </Box>
   );
 };
